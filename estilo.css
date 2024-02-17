@@ -1,0 +1,36 @@
+h1{
+	text-align: center;
+
+}
+
+p{
+
+	text-align: justify;
+	margin-left: 5%;
+	text-indent: 25px;
+	margin-right: 5%;
+
+}
+
+.gris {
+	color: darkgrey;
+}
+h2{
+	text-align: center;
+}
+
+div.centrado{
+	text-align: center;
+}
+iframe{
+	margin: 2%;
+
+}
+button{
+ border-radius: 16px;
+ height: 32px;
+ color: blue;
+}
+[contador]{
+	color: blue;
+}

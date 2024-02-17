@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mi página web</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<h1>El sentido de la vida</h1>
+		<h2 class="gris">El sentido de la vida según Viktor Frankl</h2>
+		<h2 contador>Esto ha gustado 0 veces </h2>
+		<p> 
+			El sentido de la vida según Viktor Frankl está en hallar un propósito, en asumir una responsabilidad para con nosotros mismos y para el propio ser humano. Así, teniendo claro un «por qué» podremos hacer frente a todos los «cómo»; solo sintiéndonos libres y seguros del objetivo que nos motiva, seremos capaces de generar cambios para crear una realidad mucho más noble.
+
+Lo sabemos, todos tenemos claro que no hay pregunta tan complicada como intentar definir qué es para nosotros eso a lo que llamamos «sentido de la vida». Tal cuestión abarca a veces matices filosóficos, trascendentales e incluso morales, de ahí que muy a menudo nos quedemos en las clásicas etiquetas de siempre, a saber «ser feliz y hacer felices a los demás», «sentirnos satisfechos», «hacer el bien», etc
+		</p>
+		<div class="centrado">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/jEs1Uqw-DEw?si=Z2uV4l8_DrpW7wKO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+
+		<div class="centrado"> 
+				<button onclick="megusta()">Me gusta</button>
+		</div>
+
+	</body>
+	<script type="text/javascript">
+		var contador=0;
+
+		function megusta() {
+			contador=contador+1;
+			document.querySelector("[contador]").innerHTML  = 'Esto ha gustado '+contador+' veces';
+			console.log(contador);
+			console.log(document.querySelector("[contador]"));
+		}
+	</script>
+</html>
